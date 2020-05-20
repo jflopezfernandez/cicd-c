@@ -16,6 +16,7 @@ $(TARGET): $(OBJS)
 
 test: $(TARGET)
 	@echo "TODO: Testing not yet implemented..."
+	./$(TARGET)
 
 .PHONY: clean
 clean:
