@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/env python
 #
 # This is simply a placeholder while I implemented the actual autotools
 # framework toolset.
