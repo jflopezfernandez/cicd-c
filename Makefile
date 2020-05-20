@@ -14,6 +14,9 @@ $(TARGET): $(OBJS)
 %.o: %.c
 	$(CC) $(CFLAGS) $(CPPFLAGS) -c -o $@ $^
 
+test: $(TARGET)
+	@echo "TODO: Testing not yet implemented..."
+
 .PHONY: clean
 clean:
 	rm -f $(OBJS) $(TARGET)
